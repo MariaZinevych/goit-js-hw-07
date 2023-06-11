@@ -25,9 +25,6 @@ function createGalleryCards(items) {
 function onGalleryClick(event) {
   event.preventDefault();
 
-  const originalImage = event.target.src;
-  console.log(originalImage);
-
   let gallery = new SimpleLightbox(".gallery a", {
     captionsData: "alt",
     captionDelay: 250,
