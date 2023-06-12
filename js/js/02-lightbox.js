@@ -24,9 +24,9 @@ function createGalleryCards(items) {
 
 function onGalleryClick(event) {
   event.preventDefault();
-
-  let gallery = new SimpleLightbox(".gallery a", {
-    captionsData: "alt",
-    captionDelay: 250,
-  });
 }
+
+new SimpleLightbox(".gallery a", {
+  captionsData: "alt",
+  captionDelay: 250,
+});
